@@ -40,7 +40,7 @@ static const CGFloat iPhoneScreenPortraitWidth = 320.f;
 
 @interface ALMoviePlayerControls () <ALAirplayViewDelegate, ALButtonDelegate> {
     @private
-    int windowSubviews;
+    NSUInteger windowSubviews;
 }
 
 @property (nonatomic, weak) ALMoviePlayerController *moviePlayer;
